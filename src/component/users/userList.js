@@ -14,6 +14,7 @@ class UserList extends React.Component {
    render() {
      
       const users = this.props.users.users;
+      console.log(users);
       const UserRow = users.map((user,index)=>{   
          return (
                <tr key={index}>
